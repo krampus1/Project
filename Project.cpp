@@ -186,6 +186,7 @@ int main() {
 			if (h == 0) p_wins++;
 			else b_wins++;
 		}
+		printlogo();
 		SetColor(3, 0);
 		printspace(32);
 		cout << "Вы выиграли " << p_wins << " раз\n";
